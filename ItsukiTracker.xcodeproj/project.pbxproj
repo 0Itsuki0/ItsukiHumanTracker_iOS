@@ -8,17 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		98E9ADA02C59C85C00B75262 /* ItsukiTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9AD9F2C59C85C00B75262 /* ItsukiTrackerApp.swift */; };
-		98E9ADA22C59C85C00B75262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADA12C59C85C00B75262 /* ContentView.swift */; };
 		98E9ADA42C59C85E00B75262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E9ADA32C59C85E00B75262 /* Assets.xcassets */; };
 		98E9ADA72C59C85E00B75262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E9ADA62C59C85E00B75262 /* Preview Assets.xcassets */; };
+		98E9ADB22C59C8C600B75262 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADB12C59C8C000B75262 /* CameraManager.swift */; };
+		98E9ADB42C59C91600B75262 /* TrackingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADB32C59C91300B75262 /* TrackingModel.swift */; };
+		98E9ADB62C59C92200B75262 /* TrackingDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADB52C59C91E00B75262 /* TrackingDemoView.swift */; };
+		98E9ADB82C59C98400B75262 /* VisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADB72C59C98200B75262 /* VisionManager.swift */; };
+		98E9ADBA2C59D26E00B75262 /* CentroidTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADB92C59D26A00B75262 /* CentroidTracker.swift */; };
+		98E9ADBC2C5A106900B75262 /* LiveTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9ADBB2C5A106400B75262 /* LiveTrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98E9AD9C2C59C85C00B75262 /* ItsukiTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsukiTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E9AD9F2C59C85C00B75262 /* ItsukiTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsukiTrackerApp.swift; sourceTree = "<group>"; };
-		98E9ADA12C59C85C00B75262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98E9ADA32C59C85E00B75262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E9ADA62C59C85E00B75262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98E9ADB12C59C8C000B75262 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		98E9ADB32C59C91300B75262 /* TrackingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingModel.swift; sourceTree = "<group>"; };
+		98E9ADB52C59C91E00B75262 /* TrackingDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingDemoView.swift; sourceTree = "<group>"; };
+		98E9ADB72C59C98200B75262 /* VisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionManager.swift; sourceTree = "<group>"; };
+		98E9ADB92C59D26A00B75262 /* CentroidTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroidTracker.swift; sourceTree = "<group>"; };
+		98E9ADBB2C5A106400B75262 /* LiveTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTrackingView.swift; sourceTree = "<group>"; };
+		98E9ADBD2C5A203D00B75262 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		98E9ADBE2C5A204700B75262 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98E9ADC02C5A21B600B75262 /* trackingDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = trackingDemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,9 @@
 		98E9AD932C59C85C00B75262 = {
 			isa = PBXGroup;
 			children = (
+				98E9ADBF2C5A20A500B75262 /* ReadmeAsset */,
+				98E9ADBD2C5A203D00B75262 /* .gitignore */,
+				98E9ADBE2C5A204700B75262 /* README.md */,
 				98E9AD9E2C59C85C00B75262 /* ItsukiTracker */,
 				98E9AD9D2C59C85C00B75262 /* Products */,
 			);
@@ -51,8 +67,10 @@
 		98E9AD9E2C59C85C00B75262 /* ItsukiTracker */ = {
 			isa = PBXGroup;
 			children = (
+				98E9ADB02C59C88C00B75262 /* View */,
+				98E9ADAF2C59C88200B75262 /* Model */,
+				98E9ADAE2C59C87D00B75262 /* Manager */,
 				98E9AD9F2C59C85C00B75262 /* ItsukiTrackerApp.swift */,
-				98E9ADA12C59C85C00B75262 /* ContentView.swift */,
 				98E9ADA32C59C85E00B75262 /* Assets.xcassets */,
 				98E9ADA52C59C85E00B75262 /* Preview Content */,
 			);
@@ -65,6 +83,41 @@
 				98E9ADA62C59C85E00B75262 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98E9ADAE2C59C87D00B75262 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				98E9ADB92C59D26A00B75262 /* CentroidTracker.swift */,
+				98E9ADB72C59C98200B75262 /* VisionManager.swift */,
+				98E9ADB12C59C8C000B75262 /* CameraManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		98E9ADAF2C59C88200B75262 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98E9ADB32C59C91300B75262 /* TrackingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98E9ADB02C59C88C00B75262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98E9ADBB2C5A106400B75262 /* LiveTrackingView.swift */,
+				98E9ADB52C59C91E00B75262 /* TrackingDemoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98E9ADBF2C5A20A500B75262 /* ReadmeAsset */ = {
+			isa = PBXGroup;
+			children = (
+				98E9ADC02C5A21B600B75262 /* trackingDemo.gif */,
+			);
+			path = ReadmeAsset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E9ADA22C59C85C00B75262 /* ContentView.swift in Sources */,
+				98E9ADB62C59C92200B75262 /* TrackingDemoView.swift in Sources */,
+				98E9ADB22C59C8C600B75262 /* CameraManager.swift in Sources */,
+				98E9ADB82C59C98400B75262 /* VisionManager.swift in Sources */,
+				98E9ADB42C59C91600B75262 /* TrackingModel.swift in Sources */,
 				98E9ADA02C59C85C00B75262 /* ItsukiTrackerApp.swift in Sources */,
+				98E9ADBA2C59D26E00B75262 /* CentroidTracker.swift in Sources */,
+				98E9ADBC2C5A106900B75262 /* LiveTrackingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +330,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ItsukiTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Acess required for live tracking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +360,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ItsukiTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Acess required for live tracking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

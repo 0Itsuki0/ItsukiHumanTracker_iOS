@@ -11,7 +11,7 @@ import SwiftUI
 struct ItsukiTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LiveTrackingView()
         }
     }
 }
