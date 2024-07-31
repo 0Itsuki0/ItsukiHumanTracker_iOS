@@ -13,7 +13,7 @@ Ability to set the following parameters.
 - **Max Normalized Distance**: If the centroid of 2 detected objects in 2 consecutive frames is larger than this value, they will be considered as different objects
 
 
-For further detail, please refer to [Swift/iOS: Real Time Human Traffic Tracker]().
+For further detail, please refer to [Swift/iOS: Real Time Human Traffic Tracker](https://medium.com/@itsuki.enjoy/swift-ios-real-time-human-traffic-tracker-01f1f6ade3f3).
 
 
 ## Prerequisite to Run
