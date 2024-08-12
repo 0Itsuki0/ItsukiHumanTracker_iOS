@@ -95,7 +95,7 @@ struct LiveTrackingView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .contentShape(Rectangle())
         .padding(.all, 32)
-        .padding(.top, 16)
+//        .padding(.top, 16)
         .onTapGesture {
             showSetting = false
         }
@@ -106,13 +106,13 @@ struct LiveTrackingView: View {
                 Image(systemName: "gearshape")
                     .font(.system(size: 24))
                     .foregroundStyle(.gray)
-                    .padding()
+                    .padding(.horizontal, 16)
             })
         })
         .overlay(alignment: .top, content: {
             if showSetting {
                 SettingView(showSetting: $showSetting)
-                    .padding(.top, 32)
+                    .padding(.top, 16)
                     .environmentObject(trackingModel)
             }
         })

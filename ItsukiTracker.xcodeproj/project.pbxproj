@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B499802C6866B3005A6C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4997F2C6866B3005A6C3D /* ContentView.swift */; };
 		98E9ADA02C59C85C00B75262 /* ItsukiTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9AD9F2C59C85C00B75262 /* ItsukiTrackerApp.swift */; };
 		98E9ADA42C59C85E00B75262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E9ADA32C59C85E00B75262 /* Assets.xcassets */; };
 		98E9ADA72C59C85E00B75262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E9ADA62C59C85E00B75262 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98B4997F2C6866B3005A6C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98E9AD9C2C59C85C00B75262 /* ItsukiTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsukiTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E9AD9F2C59C85C00B75262 /* ItsukiTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsukiTrackerApp.swift; sourceTree = "<group>"; };
 		98E9ADA32C59C85E00B75262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		98E9AD9E2C59C85C00B75262 /* ItsukiTracker */ = {
 			isa = PBXGroup;
 			children = (
+				98B4997F2C6866B3005A6C3D /* ContentView.swift */,
 				98E9ADB02C59C88C00B75262 /* View */,
 				98E9ADAF2C59C88200B75262 /* Model */,
 				98E9ADAE2C59C87D00B75262 /* Manager */,
@@ -192,6 +195,7 @@
 			files = (
 				98E9ADB62C59C92200B75262 /* TrackingDemoView.swift in Sources */,
 				98E9ADB22C59C8C600B75262 /* CameraManager.swift in Sources */,
+				98B499802C6866B3005A6C3D /* ContentView.swift in Sources */,
 				98E9ADB82C59C98400B75262 /* VisionManager.swift in Sources */,
 				98E9ADB42C59C91600B75262 /* TrackingModel.swift in Sources */,
 				98E9ADA02C59C85C00B75262 /* ItsukiTrackerApp.swift in Sources */,
